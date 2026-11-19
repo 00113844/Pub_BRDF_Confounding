@@ -1,5 +1,7 @@
 # Pub_BRDF_Confounding
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24358758.svg)](https://doi.org/10.5281/zenodo.24358758)
+
 Code and data for **"Same canopy, different place: sun-view geometry biases vegetation-index LAI
 retrieval of ryegrass and wheat across Australia, and a sun-aware multi-angle index combination
 reduces it"** (manuscript in preparation for *Computers and Electronics in Agriculture*).
@@ -47,7 +49,8 @@ Processes, not threads: the Fortran engine keeps module state.
 
 ## Status
 
-This repository is being assembled for archiving on Zenodo. Not yet included: the terrain (E6),
+Archived on Zenodo: [10.5281/zenodo.24358758](https://doi.org/10.5281/zenodo.24358758) (all versions;
+v1.0.0 is [10.5281/zenodo.24358759](https://doi.org/10.5281/zenodo.24358759)). Not yet included: the terrain (E6),
 index × view-angle selection (E8) and 50-canopy multi-angle robustness code and outputs, and the
 facts table behind the numbers in the manuscript.
 

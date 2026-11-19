@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 title: "Same canopy, different place: simulation code and data for sun-view geometry effects on vegetation-index LAI retrieval across Australia"
 type: software
+doi: "10.5281/zenodo.24358758"
+version: "1.0.0"
+date-released: "2026-11-19"
 repository-code: "https://github.com/00113844/Pub_BRDF_Confounding"
 authors:
   - family-names: Togeiro de Alckmin
