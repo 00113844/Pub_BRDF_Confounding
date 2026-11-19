@@ -1,0 +1,20 @@
+species: Lolium perenne
+study_focus: BRDF sensitivity in reflectance and trait estimation
+prosail_defaults:
+  N: 1.5
+  cab: 40.0
+  car: 8.0
+  cbrown: 0.0
+  cw: 0.01
+  cm: 0.009
+  lai: 2.5
+  lidfa: 60.0
+  hspot: 0.01
+  psoil: 0.5
+geometry_defaults:
+  sza: 30.0
+  vza_step_deg: 5
+  raa_step_deg: 5
+notes:
+  - Keep geometry assumptions explicit in all comparative analyses.
+  - Document wavelength-index mapping whenever extracting spectral bands.

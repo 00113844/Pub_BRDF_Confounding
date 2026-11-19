@@ -1,0 +1,36 @@
+{
+  "title": "Same canopy, different place: simulation code and data for sun-view geometry effects on vegetation-index LAI retrieval across Australia",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Togeiro de Alckmin, Gustavo",
+      "orcid": "0000-0002-0665-9426",
+      "affiliation": "The University of Western Australia"
+    }
+  ],
+  "description": "PROSAIL simulation pipeline, sourced canopy parameter tables, Australian site and continental-grid geometry scenarios (handheld, Sentinel-2, UAV), terrain analysis, multi-angle retrieval experiments and result files supporting the manuscript submitted to Computers and Electronics in Agriculture. Code: Apache-2.0. Data and figures: CC-BY-4.0. The vendored, patched PyProSAIL is LGPL-3.0-or-later.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "PROSAIL",
+    "BRDF",
+    "vegetation indices",
+    "leaf area index",
+    "perennial ryegrass",
+    "wheat",
+    "Sentinel-2",
+    "UAV",
+    "Australia"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.2574925",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/robintw/PyProSAIL",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    }
+  ]
+}

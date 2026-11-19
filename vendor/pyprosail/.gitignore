@@ -1,0 +1,4 @@
+.mesonpy-*/
+build/
+*.pyd
+*.so

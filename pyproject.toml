@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "publication-spectral-data"
+version = "0.1.0"
+description = "BRDF-focused ryegrass reflectance simulation and manuscript workflow"
+readme = "Readme.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pyprosail",       # PROSAIL RTM (PROSPECT-5B + 4SAIL, Fortran) — patched PyProSAIL in vendor/pyprosail
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "plotly",          # Interactive spectra and polar BRDF plots in the Streamlit app
+  "streamlit",
+  "streamlit-folium", # Clickable map for picking a location
+  "folium",
+  "pvlib",           # Solar position from location and time
+  "timezonefinder",  # Local time zone from lat/lon
+  "tzdata",          # IANA time zone database (needed by zoneinfo on Windows)
+  "ipykernel",       # Required to register the project Jupyter kernel
+  "scipy",           # LUT interpolation and BRDF kernel fits
+  "SALib",           # Sobol sensitivity analysis (biology vs geometry)
+  "cartopy",         # Australian map outlines for geometry/VI maps
+]
+
+[dependency-groups]
+dev = [
+  "prosail",         # Pure-Python PROSAIL (jgomezdans), used for cross-checks and as a fallback backend
+  "pytest",
+]
+
+[tool.uv.sources]
+pyprosail = { path = "vendor/pyprosail" }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/publication_spectral_data"]
+
+[tool.uv]
+package = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+[build-system]
+build-backend = "mesonpy"
+requires = ["meson-python>=0.16", "numpy>=2.0", "ninja"]
+
+[project]
+name = "pyprosail"
+dynamic = ["version"]
+description = "PROSAIL (PROSPECT-5B + 4SAIL) Fortran model with a Python interface; patched fork of EOA-team/PyProSAIL"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "LGPL-3.0-or-later (Python interface); PROSAIL Fortran by J.-B. Feret / W. Verhoef" }
+authors = [{ name = "Robin Wilson" }, { name = "Lukas Valentin Graf" }]
+dependencies = ["numpy>=1.24"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Fortran",
+]

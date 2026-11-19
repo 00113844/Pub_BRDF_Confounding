@@ -1,0 +1,11 @@
+Same canopy, different place: simulation code and data
+Copyright 2026 Gustavo Togeiro de Alckmin
+
+Code in this repository is licensed under the Apache License, Version 2.0 (LICENSE).
+Data, parameter tables, result files and figures (data/, results/, docs/drafts/figures/) are
+licensed under Creative Commons Attribution 4.0 International (LICENSE-DATA).
+
+Third-party code with its own licence:
+- vendor/pyprosail/ -- patched copy of PyProSAIL (R. T. Wilson; EOA-team fork by L. V. Graf),
+  GNU LGPL-3.0-or-later (vendor/pyprosail/COPYING, COPYING.LESSER). The PROSAIL Fortran code is by
+  J.-B. Feret, based on code by W. Verhoef. Every change is listed in vendor/pyprosail/PATCHES.md.

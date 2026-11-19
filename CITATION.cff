@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Same canopy, different place: simulation code and data for sun-view geometry effects on vegetation-index LAI retrieval across Australia"
+type: software
+repository-code: "https://github.com/00113844/Pub_BRDF_Confounding"
+authors:
+  - family-names: Togeiro de Alckmin
+    given-names: Gustavo
+    orcid: "https://orcid.org/0000-0002-0665-9426"
+    affiliation: "The University of Western Australia"
+license: Apache-2.0
+keywords:
+  - PROSAIL
+  - BRDF
+  - vegetation indices
+  - leaf area index
+  - perennial ryegrass
+  - wheat
+  - Sentinel-2
+  - UAV
+  - Australia

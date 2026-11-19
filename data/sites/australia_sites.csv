@@ -1,0 +1,25 @@
+# Named sites for the Australia geometry scenarios. lat/lon are approximate town-centre
+# coordinates (decimal degrees, WGS84), not field locations. Time zone and DST are derived in
+# code (solar.local_timezone), not stored here. system: dairy_pasture = ryegrass-based dairy or
+# grazing district; wheat = wheatbelt; tropical_control = outside the ryegrass/wheat range,
+# used only as a latitude extreme (same canopy everywhere is a counterfactual control).
+site,state,lat,lon,system
+Darwin,NT,-12.46,130.84,tropical_control
+Katherine,NT,-14.47,132.26,tropical_control
+Kununurra,WA,-15.77,128.74,tropical_control
+Atherton,QLD,-17.27,145.48,dairy_pasture
+Gatton,QLD,-27.55,152.28,dairy_pasture
+Moree,NSW,-29.47,149.85,wheat
+Geraldton,WA,-28.78,114.61,wheat
+Northam,WA,-31.65,116.67,wheat
+Merredin,WA,-31.48,118.28,wheat
+Esperance,WA,-33.86,121.89,wheat
+Busselton,WA,-33.65,115.35,dairy_pasture
+Albany,WA,-35.02,117.88,dairy_pasture
+Roseworthy,SA,-34.53,138.69,wheat
+Mount Gambier,SA,-37.83,140.78,dairy_pasture
+Horsham,VIC,-36.71,142.20,wheat
+Hamilton,VIC,-37.74,142.02,dairy_pasture
+Warrnambool,VIC,-38.38,142.48,dairy_pasture
+Wagga Wagga,NSW,-35.12,147.37,wheat
+Smithton,TAS,-40.84,145.12,dairy_pasture

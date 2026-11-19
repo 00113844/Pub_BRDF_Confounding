@@ -1,0 +1,32 @@
+!    -*- f90 -*-
+! Hand-written f2py signature for the PROSAIL entry point in PyPROSAIL.f90.
+! Only `run` is exposed; the Fortran modules stay internal. nw = 2101 bands
+! (400-2500 nm, 1 nm) matches MOD_dataSpec_P5B.
+python module _prosail_model
+    interface
+        subroutine run(n,cab,car,cbrown,cw,cm,psoil,lai,hspot,tts,tto,psi,typelidf,lidfa,lidfb,use_soil,rsoil_in,resv_out,rsot_out,rdot_out,rsdt_out,rddt_out)
+            real*8 intent(in) :: n
+            real*8 intent(in) :: cab
+            real*8 intent(in) :: car
+            real*8 intent(in) :: cbrown
+            real*8 intent(in) :: cw
+            real*8 intent(in) :: cm
+            real*8 intent(in) :: psoil
+            real*8 intent(in) :: lai
+            real*8 intent(in) :: hspot
+            real*8 intent(in) :: tts
+            real*8 intent(in) :: tto
+            real*8 intent(in) :: psi
+            integer intent(in) :: typelidf
+            real*8 intent(in) :: lidfa
+            real*8 intent(in) :: lidfb
+            integer intent(in) :: use_soil
+            real*8 dimension(2101),intent(in) :: rsoil_in
+            real*8 dimension(2101),intent(out) :: resv_out
+            real*8 dimension(2101),intent(out) :: rsot_out
+            real*8 dimension(2101),intent(out) :: rdot_out
+            real*8 dimension(2101),intent(out) :: rsdt_out
+            real*8 dimension(2101),intent(out) :: rddt_out
+        end subroutine run
+    end interface
+end python module _prosail_model

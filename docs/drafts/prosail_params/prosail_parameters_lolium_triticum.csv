@@ -1,0 +1,52 @@
+species,stage,parameter,value_or_range,unit,method,source_citekey,doi,location_in_source,notes
+Lolium perenne,grassland (mixed; not ryegrass),N,1.5-1.9,-,LUT prior,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2, p. 2596",Majella NP (Italy) Mediterranean mixed grassland; uniform LUT range
+Lolium perenne,Lolium/Poa-dominated grassland,N,1.5-1.9,-,LUT prior,si2012grassland,10.1016/j.rse.2012.02.011,"Table 2, p. 418",Schiermonnikoog (NL); agricultural fields dominated by L. perenne and Poa pratensis plus semi-natural grassland; range copied from Darvishzadeh 2008
+generic monocot,-,N,low N (qualitative),-,model description,feret2021prospectpro,10.1016/j.rse.2020.112173,Section 2 (arXiv preprint p. 8),"low Nstruct = moderate mesophyll complexity, e.g. most monocots (citing Boren et al. 2019); no number given"
+Lolium perenne,April (spring),Cab,"21.9-37.02 (mean 30.16, SD 3.63)",ug cm-2,measured,si2012grassland,10.1016/j.rse.2012.02.011,"Table 1, p. 417",n=30; LCC from SPAD calibration; mixed Lolium/Poa-dominated and semi-natural plots
+Lolium perenne,June (summer),Cab,"14.59-37.34 (mean 28.48, SD 4.58)",ug cm-2,measured,si2012grassland,10.1016/j.rse.2012.02.011,"Table 1, p. 417",n=30
+Lolium perenne,pooled Apr+Jun,Cab,14.59-37.34 (mean 29.32),ug cm-2,measured,si2012grassland,10.1016/j.rse.2012.02.011,"Table 1, p. 417",n=60
+grassland (mixed; not ryegrass),summer,Cab,"17.1-49.66 (mean 30.07, SD 6.12)",ug cm-2,measured,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 1, p. 2595","n=185; Mediterranean species (Brachypodium, Bromus, Festuca...)"
+Lolium perenne,grassland LUT,Cab,15-55,ug cm-2,LUT prior,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2, p. 2596",also used by Si 2012 Table 2
+Lolium perenne,cut 1 (5 May) / cut 2 (8 Sep) / cut 3 (14 Oct),SPAD (Chl proxy),42.3 / 44.3 / 44.0 (mean 43.5 +- 1.1),SPAD units,measured,gaborcik2003spad,10.1023/b:phot.0000011963.43628.15,"Table 1, p. 286","cv. Mustang, Slovakia, 3 cuts/yr; SPAD-502 not converted to Cab in source; do not use as Cab directly"
+Lolium perenne,-,Car,,ug cm-2,not found,,,,"No ryegrass/grass carotenoid source retrieved. Cross-species: wheat Cab/Car ~5 (jiang2018prospect, p. 6, Fig. 3) -> project car=8 is an ASSUMPTION"
+Lolium perenne,grassland LUT,Cw (EWT),0.01-0.02,g cm-2 (=cm),LUT prior,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2, p. 2596",No measured ryegrass EWT found
+Lolium perenne,grassland LUT,Cw (EWT),0.01-0.02,g cm-2,LUT prior,si2012grassland,10.1016/j.rse.2012.02.011,"Table 2, p. 418",Cw:Cm coupled 4:1 in Si 2012
+Lolium perenne,"regrowth day 21-28, high N (7.5 mM), ambient CO2",Cm (LMA),0.0047 (NO3-) to 0.0065 (NH4+),g cm-2,measured (calc 1/SLA),beecheygradwell2019ryegrass,10.1093/jxb/erz494,"Table 1, p. 2357 (PDF p. 7)","wild-type cv. Grasslands Impact, controlled environment; SLA 211+-9 and 155+-3 cm2 g-1; elevated CO2: 174 and 150 cm2 g-1 (LMA 0.0057-0.0067)"
+Lolium perenne,grassland LUT,Cm (LMA),0.005-0.01,g cm-2,LUT prior,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2, p. 2596",Mediterranean mixed grassland
+Lolium perenne,Lolium/Poa-dominated grassland LUT,Cm (LMA),0.0025-0.005,g cm-2,LUT prior,si2012grassland,10.1016/j.rse.2012.02.011,"Table 2 and footnote a, p. 418","Cm coupled to Cw at 1:4. Footnote gives field-level Cm range as 0.01-0.02, which disagrees with Darvishzadeh 2008 Table 2 (0.005-0.01)"
+Lolium perenne,-,Cbrown,,-,not found,,,,No grassland source sets Cbrown; crop LUT in berger2020hybrid fixes Cbrown = 0
+Lolium perenne,April (spring),LAI,0.35-1.66 (mean 0.9),m2 m-2,measured,si2012grassland,10.1016/j.rse.2012.02.011,"Table 1, p. 417",LAI-2000
+Lolium perenne,June (summer),LAI,0.43-6.77 (mean 3.06),m2 m-2,measured,si2012grassland,10.1016/j.rse.2012.02.011,"Table 1, p. 417",
+Lolium perenne,LUT Nov-Apr / May-Oct,LAI,0.1-4.0 / 0.1-8.0,m2 m-2,LUT prior,si2012grassland,10.1016/j.rse.2012.02.011,"Table 2, p. 418",
+grassland (mixed; not ryegrass),summer,LAI,0.39-7.34 (mean 2.81),m2 m-2,measured,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 1, p. 2595",
+Lolium perenne,grassland LUT,ALA (ellipsoidal mean leaf angle),40-70,deg,LUT prior (field knowledge),darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2 + footnote a, p. 2596","No measured Lolium perenne ALA was retrieved (Rhodes 1973, Sheehy & Cooper 1973 and Shorten et al. 2026 full texts not accessible)"
+Lolium perenne,Lolium/Poa-dominated grassland LUT,ALA,20-70,deg,LUT prior,si2012grassland,10.1016/j.rse.2012.02.011,"Table 2, p. 418",widened to cover species and phenology
+Lolium perenne,grassland LUT,hspot,0.05-0.1,m m-1,LUT prior,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2, p. 2596",also used by Si 2012 Table 2
+Lolium perenne,grassland LUT,soil brightness scale,0.5-1.5,-,LUT prior,darvishzadeh2008inversion,10.1016/j.rse.2007.12.003,"Table 2, p. 2596",multiplicative soil-brightness scale; not the same parameterisation as PROSAIL psoil (0-1 dry/wet mixing)
+Lolium perenne,April / June,CCC,0.1-0.54 (mean 0.28) / 0.12-1.69 (mean 0.86),g m-2,measured,si2012grassland,10.1016/j.rse.2012.02.011,"Table 1, p. 417",CCC = LCC x LAI
+Lolium perenne,cut 1 / cut 2 / cut 3,leaf N,29.3 / 31.3 / 21.4 (mean 27.3 +- 5.2),g kg-1 DM,measured,gaborcik2003spad,10.1023/b:phot.0000011963.43628.15,"Table 1, p. 286","cv. Mustang mature green leaves, CHN analyser; x6.25 = 18.3 / 19.6 / 13.4% CP [CALC]"
+Triticum aestivum,tillering (6 Apr) -> project Z21/Z25,ALA,53.9 (SD 19.6),deg,measured (lidar),hosoi2009wheat,10.2480/agrmet.65.3.6,Abstract p. 1; Results p. 3,"cv. Norin 61, Japan; stage mapping to Zadoks is the project's"
+Triticum aestivum,stem elongation (26 Apr) -> project Z30/Z32,ALA,45.3 (SD 22.2),deg,measured (lidar),hosoi2009wheat,10.2480/agrmet.65.3.6,Abstract p. 1; Results p. 3,
+Triticum aestivum,flowering (16 May) -> project Z65,ALA,44.3 (SD 21.7),deg,measured (lidar),hosoi2009wheat,10.2480/agrmet.65.3.6,Abstract p. 1; Results p. 3,
+Triticum aestivum,ripening (5 Jun) -> project Z75,ALA,56.1 (SD 19.5),deg,measured (lidar),hosoi2009wheat,10.2480/agrmet.65.3.6,Abstract p. 1; Results p. 3,"mean of the 4 dates = 49.9 [CALC], used by the project for unmapped stages"
+Triticum aestivum,two nodes (~Z32) + grain filling pooled,N,1.62 (PROSPECT-5b); 1.41-1.64 across 8 PROSPECT versions,-,inverted,jiang2018prospect,10.1186/s13007-018-0291-x,"Table 4, p. 9; text p. 8","372 leaves, 6 cultivars, France; N<1.5 for P3/PD versions, >1.6 for P4/P5"
+Triticum aestivum,two nodes + grain filling,Cab:Car,~5 (offset neglected; r2=0.91),-,measured,jiang2018prospect,10.1186/s13007-018-0291-x,"p. 6, Fig. 3",basis for project car = cab/5
+Triticum aestivum,"BBCH 25-87 (crop LUT, wheat+maize)",Cab,0-80,ug cm-2,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13 (arXiv)",PROSAIL-PRO training ranges
+Triticum aestivum,crop LUT,Car,0-15,ug cm-2,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,Cw (EWT),0.001-0.02,cm,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,Cp (protein) / CBC,"0.001-0.0025 (mean 0.0015, SD 0.0005) / 0.001-0.01",g cm-2,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",PROSPECT-PRO; LMA = Cp + CBC
+Triticum aestivum,crop LUT,N,1.0-2.0,-,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,Cbrown,0,-,LUT prior (fixed),berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,LAI,"0-7 (Gaussian mean 3, SD 2)",m2 m-2,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,ALA,30-70,deg,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,hspot,0.01-0.5,m m-1,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,crop LUT,soil brightness (alpha_soil),0-1,-,LUT prior,berger2020hybrid,10.1016/j.jag.2020.102174,"Table 2, p. 13",
+Triticum aestivum,BBCH 25-83 (2017) / 28-87 (2018),leaf Narea,2.4-13.2 (mean 8.4) / 2.2-10.0 (mean 6.3),g N m-2,measured (Dumas),berger2020hybrid,10.1016/j.jag.2020.102174,"Table 1, p. 8",Munich-North-Isar; stalk and fruit Narea also given
+Triticum aestivum,Z30-34 / 35-39 / 40-49 / 50-59 / 60-69,critical shoot N,4.7+-0.5 / 4.4+-0.2 / 2.9+-0.7 / 2.1+-0.3 / 1.8+-0.2,% DM,measured (critical points),hoogmoed2018dilution,10.3389/fpls.2018.00406,"Table 1, p. 4",South Australia 2014-2016; whole-shoot basis
+Triticum aestivum,GS23-69,critical N dilution,%Nc = 6.75 W^-0.66 (W in t ha-1),% DM,fitted,hoogmoed2018dilution,10.3389/fpls.2018.00406,"Fig. 4A caption, p. 7",95% CI: 7.61W^-0.58 to 5.99W^-0.75; water stress scatters the curve
+Triticum aestivum,"dense crop, non-limiting N",N uptake per unit LAI (a/k),39,kg N ha-1 per LAI,compiled,lemaire2019allometric,10.1007/s13593-019-0570-6,"Table 1, p. 7",after Lemaire et al. 2007; whole shoot
+Triticum aestivum,vegetative; crop-level,Cab,44.8,ug cm-2,measured (SPAD-calibrated),danner2019fitted,10.3390/rs11101150,see project table,CARRIED OVER from project growth_stages.csv; full text not re-read this session (MDPI/T&F returned 403); value not re-verified
+Triticum aestivum,crop-level,Cw / Cm,0.02 / 0.0051,cm / g cm-2,measured,danner2019fitted,10.3390/rs11101150,see project table,CARRIED OVER from project growth_stages.csv; full text not re-read this session (MDPI/T&F returned 403); value not re-verified
+Triticum aestivum,vegetative stages,Cbrown,0,-,measured,danner2019fitted,10.3390/rs11101150,see project table,CARRIED OVER from project growth_stages.csv; full text not re-read this session (MDPI/T&F returned 403); value not re-verified
+Triticum aestivum,Z30/Z32/Z55/Z75,LAI and Cab,see project table,-,measured,,,see project table,CARRIED OVER from project growth_stages.csv; full text not re-read this session (MDPI/T&F returned 403); value not re-verified; Xing et al. 2021 doi:10.1080/20964471.2021.1918909 (no bib entry added)
+Triticum aestivum,Z39-Z92,hspot,0.058-0.029,m m-1,calc,,,see project table,CARRIED OVER from project growth_stages.csv; full text not re-read this session (MDPI/T&F returned 403); value not re-verified; Wang 2022 leaf width / AHDB height
